@@ -1,0 +1,31 @@
+python code -Condition to continuously detect  alarm in case of high temperature
+
+
+
+import random
+i=2
+while(True):
+    a=random.randint(10,99)
+    b=random.randint(10,99)
+    if(a>35 and b>60):
+        print("high temperature and humitidy of:",a,b,"%","alarm is on")
+    elif(a<35 and b<60):
+        print("Normal temperature and humidity of:",a,b,"%","alarm is off")
+    if(i<20):
+        i=i+1
+        random
+    else:
+        break
+
+
+output:
+
+high temperature and humitidy of: 91 63 % alarm is on
+high temperature and humitidy of: 46 89 % alarm is on
+high temperature and humitidy of: 45 84 % alarm is on
+high temperature and humitidy of: 94 89 % alarm is on
+high temperature and humitidy of: 42 84 % alarm is on
+high temperature and humitidy of: 81 61 % alarm is on
+high temperature and humitidy of: 79 82 % alarm is on
+Normal temperature and humidity of: 23 40 % alarm is off
+> 
